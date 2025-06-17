@@ -1,0 +1,4 @@
+4ae310e7050ba02d7c6c6c8db50843dc35af6db2@thunderbolt-devnet-node-1.nubit.network:26656
+a4647c9444fc432cb2b3333654e8d86ced5167a8@thunderbolt-devnet-node-2.nubit.network:26656
+65a8d9a3251ecd33bd9a2bacc628768abe31f206@thunderbolt-devnet-node-3.nubit.network:26656
+a420420806d7318e80e80e28dc0f649eab32e3e1@thunderbolt-devnet-node-4.nubit.network:26656

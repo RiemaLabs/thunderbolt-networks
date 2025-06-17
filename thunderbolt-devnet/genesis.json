@@ -1,0 +1,422 @@
+{
+  "app_name": "thunderboltd",
+  "app_version": "main-48a58498b79981740f14e49da10cde1fde8f4907",
+  "genesis_time": "2025-05-28T07:43:31.376576Z",
+  "chain_id": "thunderbolt-devnet",
+  "initial_height": 1,
+  "app_hash": null,
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bc1pyxl5d7d6ejk7k3ufgnlpd4yrq939kexq4zl9yz47jw756lcjd28qa4gzrz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bc1pfnqmznwuj8qal0heh7r9ng6hxmjc683nypl87rs48ltwxu8k4zpsp7n9ly",
+          "pub_key": null,
+          "account_number": "1",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bc1pzwn7sy7k2hzkjaqagqqhx72l54yha6sh055ly3evecfxj872l65sskkevd",
+          "pub_key": null,
+          "account_number": "2",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bc1p23znppfw6ergph2qc6vee9kfkpxfeafrkgv3ugwgmx66zc9k5wqqwwqx2q",
+          "pub_key": null,
+          "account_number": "3",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bc1p5rlts844m6kpzksxhs5hswwc5chum4cn26sz5u6pc8rardngyp9spv044x",
+          "pub_key": null,
+          "account_number": "4",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bc1phgq3xaq4l4yt9l9a7lkrctzpxsp5s55pk3jz8vxelpn5ndjjuksse3d5f5",
+          "pub_key": null,
+          "account_number": "5",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "bc1pm4kh82hqmwtq29rl96przy7yhgxajeyratffp2zuwty6kgc0wk6sauusqx",
+          "pub_key": null,
+          "account_number": "6",
+          "sequence": "0"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "bc1p5rlts844m6kpzksxhs5hswwc5chum4cn26sz5u6pc8rardngyp9spv044x",
+          "coins": [{ "denom": "unub", "amount": "999800000000000" }]
+        },
+        {
+          "address": "bc1phr2wmyfffspwcv8xc5jsyhzyztxy2auujqc7j99jmkg9zc4qhxcss6uy9a",
+          "coins": [{ "denom": "unub", "amount": "200000000000" }]
+        },
+        {
+          "address": "bc1phgq3xaq4l4yt9l9a7lkrctzpxsp5s55pk3jz8vxelpn5ndjjuksse3d5f5",
+          "coins": [{ "denom": "udummy", "amount": "50000000000" }]
+        },
+        {
+          "address": "bc1pm4kh82hqmwtq29rl96przy7yhgxajeyratffp2zuwty6kgc0wk6sauusqx",
+          "coins": [{ "denom": "udummy", "amount": "50000000000" }]
+        }
+      ],
+      "supply": [
+        { "denom": "udummy", "amount": "100000000000" },
+        { "denom": "unub", "amount": "1000000000000000" }
+      ],
+      "denom_metadata": [
+        {
+          "description": "Dummy utility token used for testing",
+          "denom_units": [
+            { "denom": "udummy", "exponent": 0, "aliases": [] },
+            { "denom": "dummy", "exponent": 1, "aliases": [] }
+          ],
+          "base": "dummy",
+          "name": "Dummy Token",
+          "display": "dummy",
+          "symbol": "DUM"
+        },
+        {
+          "description": "Native staking & fee token of the Thunderbolt network",
+          "denom_units": [
+            { "denom": "unub", "exponent": 0, "aliases": [] },
+            { "denom": "nub", "exponent": 6, "aliases": [] }
+          ],
+          "base": "unub",
+          "name": "Nubit Thunderbolt Token",
+          "display": "nub",
+          "symbol": "NB"
+        }
+      ],
+      "send_enabled": []
+    },
+    "circuit": {
+      "account_permissions": [],
+      "disabled_type_urls": []
+    },
+    "consensus": null,
+    "crisis": {
+      "constant_fee": {
+        "denom": "unub",
+        "amount": "1000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.000000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "genutil": {
+      "gen_txs": []
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "unub",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "172800s",
+        "voting_period": "172800s",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "proposal_cancel_ratio": "0.500000000000000000",
+        "proposal_cancel_dest": "",
+        "expedited_voting_period": "86400s",
+        "expedited_threshold": "0.667000000000000000",
+        "expedited_min_deposit": [
+          {
+            "denom": "unub",
+            "amount": "50000000"
+          }
+        ],
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true,
+        "min_deposit_ratio": "0.010000000000000000"
+      },
+      "constitution": ""
+    },
+    "group": {
+      "group_seq": "0",
+      "groups": [],
+      "group_members": [],
+      "group_policy_seq": "0",
+      "group_policies": [],
+      "proposal_seq": "0",
+      "proposals": [],
+      "votes": []
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.000000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "unub",
+        "inflation_rate_change": "0",
+        "inflation_max": "0",
+        "inflation_min": "0",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "15768000"
+      }
+    },
+    "params": null,
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "30s",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "unub",
+        "min_commission_rate": "0.000000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [
+        {
+          "operator_address": "thubvaloper13dxv67l7fwrut46njn3ktuye3xre352ftm6gkunug98y0etr0sfqrflht4",
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "KD/JUnuzLn3Ihmv8hhoP8iOPh9rc7ZKzndPKr26SqHc="
+          },
+          "jailed": false,
+          "status": 2,
+          "tokens": "50000000000",
+          "delegator_shares": "50000000000.000000000000000000",
+          "min_self_delegation": "50000000000",
+          "commission": {
+            "commission_rates": {
+              "rate": "0",
+              "max_rate": "0.2",
+              "max_change_rate": "0.01"
+            },
+            "update_time": "0001-01-01T00:00:00Z"
+          },
+          "description": {
+            "moniker": "val-1",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          }
+        },
+        {
+          "operator_address": "thubvaloper1c5hnhqex6c83tqk5h52jlfclr5h2x0paj60nleezxke6l5wngz3qf9v2rx",
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "ImtYqdJnkXj98fBYEbRrXt756NTx4akNRpxzX0s/c84="
+          },
+          "jailed": false,
+          "status": 2,
+          "tokens": "50000000000",
+          "delegator_shares": "50000000000.000000000000000000",
+          "min_self_delegation": "50000000000",
+          "commission": {
+            "commission_rates": {
+              "rate": "0",
+              "max_rate": "0.2",
+              "max_change_rate": "0.01"
+            },
+            "update_time": "0001-01-01T00:00:00Z"
+          },
+          "description": {
+            "moniker": "val-1",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          }
+        },
+        {
+          "operator_address": "thubvaloper1wygjssvddyhrv0754a8p4x4tvsdc38uxsmw2hf25yga92yzl5deqrx5qty",
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "9epiCXXSQ3YDWo5NITBz77WV0QuCpo80EuObpRd1lWA="
+          },
+          "jailed": false,
+          "status": 2,
+          "tokens": "50000000000",
+          "delegator_shares": "50000000000.000000000000000000",
+          "min_self_delegation": "50000000000",
+          "commission": {
+            "commission_rates": {
+              "rate": "0",
+              "max_rate": "0.2",
+              "max_change_rate": "0.01"
+            },
+            "update_time": "0001-01-01T00:00:00Z"
+          },
+          "description": {
+            "moniker": "val-1",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          }
+        },
+        {
+          "operator_address": "thubvaloper1h3ylqgvn0zsnm5ydwtm75ya3k0ny7ax3nfrqx3kuve0w2gpxpg4s6ahlvx",
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "AZqkoKwybbl+RR8MBTOQ9l6IOAG+dlydW7XxmlRqlhc="
+          },
+          "jailed": false,
+          "status": 2,
+          "tokens": "50000000000",
+          "delegator_shares": "50000000000.000000000000000000",
+          "min_self_delegation": "50000000000",
+          "commission": {
+            "commission_rates": {
+              "rate": "0",
+              "max_rate": "0.2",
+              "max_change_rate": "0.01"
+            },
+            "update_time": "0001-01-01T00:00:00Z"
+          },
+          "description": {
+            "moniker": "val-1",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          }
+        }
+      ],
+      "delegations": [
+        {
+          "delegator_address": "bc1p5rlts844m6kpzksxhs5hswwc5chum4cn26sz5u6pc8rardngyp9spv044x",
+          "validator_address": "thubvaloper13dxv67l7fwrut46njn3ktuye3xre352ftm6gkunug98y0etr0sfqrflht4",
+          "shares": "50000000000.000000000000000000"
+        },
+        {
+          "delegator_address": "bc1p5rlts844m6kpzksxhs5hswwc5chum4cn26sz5u6pc8rardngyp9spv044x",
+          "validator_address": "thubvaloper1c5hnhqex6c83tqk5h52jlfclr5h2x0paj60nleezxke6l5wngz3qf9v2rx",
+          "shares": "50000000000.000000000000000000"
+        },
+        {
+          "delegator_address": "bc1p5rlts844m6kpzksxhs5hswwc5chum4cn26sz5u6pc8rardngyp9spv044x",
+          "validator_address": "thubvaloper1wygjssvddyhrv0754a8p4x4tvsdc38uxsmw2hf25yga92yzl5deqrx5qty",
+          "shares": "50000000000.000000000000000000"
+        },
+        {
+          "delegator_address": "bc1p5rlts844m6kpzksxhs5hswwc5chum4cn26sz5u6pc8rardngyp9spv044x",
+          "validator_address": "thubvaloper1h3ylqgvn0zsnm5ydwtm75ya3k0ny7ax3nfrqx3kuve0w2gpxpg4s6ahlvx",
+          "shares": "50000000000.000000000000000000"
+        }
+      ],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "upgrade": {},
+    "vesting": {},
+    "wasm": {
+      "params": {
+        "code_upload_access": {
+          "permission": "Everybody",
+          "addresses": []
+        },
+        "instantiate_default_permission": "Everybody"
+      },
+      "codes": [],
+      "contracts": [],
+      "sequences": []
+    }
+  },
+  "consensus": {
+    "params": {
+      "block": {
+        "max_bytes": "22020096",
+        "max_gas": "-1"
+      },
+      "evidence": {
+        "max_age_num_blocks": "100000",
+        "max_age_duration": "172800000000000",
+        "max_bytes": "1048576"
+      },
+      "validator": {
+        "pub_key_types": ["ed25519"]
+      },
+      "version": {
+        "app": "0"
+      },
+      "abci": {
+        "vote_extensions_enable_height": "0"
+      }
+    }
+  }
+}
